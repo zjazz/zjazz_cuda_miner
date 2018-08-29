@@ -1,5 +1,7 @@
 # zjazz CUDA miner #
 
+**Download link:** [https://github.com/zjazz/zjazz_cuda_miner/releases](https://github.com/zjazz/zjazz_cuda_miner/releases)
+
 This is a miner for nVidia CUDA GPUs.
 
 Current release is available for Windows. A Linux version will be released soon.
@@ -41,5 +43,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ### Donations ###
 
 BTC: 1Fx8QDdyFJt3NWLkuKeBvsv4nNrFTNK9X7
+
 Merit: MUkd3GdqNCCsaHmCSAeNRnAaAGi7M4v7Xo
 
