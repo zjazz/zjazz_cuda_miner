@@ -2,11 +2,7 @@
 
 **Download link:** [https://github.com/zjazz/zjazz_cuda_miner/releases](https://github.com/zjazz/zjazz_cuda_miner/releases)
 
-This is a miner for nVidia CUDA GPUs.
-
-Current release is available for Windows. A Linux version will be released soon.
-
-**Note: CUDA 9.1 is required. If not installed a cuda91.dll error will appear.**
+This is a Windows and Linux miner for nVidia CUDA GPUs.
 
 ### Support/Contact ###
 
@@ -22,7 +18,7 @@ Discord channel: https://discord.gg/FRUVSJT
 
 Cuckoo (MeritCoin) is the only algorithm supported at this moment.
 
-On fast hardware hashrate is about 45% faster than the official Merit miner. Check the [Merit guide](https://github.com/zjazz/zjazz_cuda_miner/blob/master/MERIT.md) for properly tuning the miner.
+Check the [Merit guide](https://github.com/zjazz/zjazz_cuda_miner/blob/master/MERIT.md) for properly tuning the miner.
 
 ### Usage ###
 
