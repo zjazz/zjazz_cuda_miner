@@ -4,6 +4,8 @@
 
 This is a Windows and Linux miner for nVidia CUDA GPUs.
 
+Windows requires CUDA 9.1 (or higher). Linux requires CUDA 9.2.
+
 ### Support/Contact ###
 
 Discord channel: https://discord.gg/FRUVSJT
@@ -14,11 +16,15 @@ Discord channel: https://discord.gg/FRUVSJT
 
 ### Algorithms / Hashrates ###
 
-#### Cuckoo ###
+#### Cuckoo (MeritCoin) ###
 
-Cuckoo (MeritCoin) is the only algorithm supported at this moment.
+Cuckoo is used to mine MeritCoin.
 
 Check the [Merit guide](https://github.com/zjazz/zjazz_cuda_miner/blob/master/MERIT.md) for properly tuning the miner.
+
+#### Cuckoo (BitCash)
+
+BitCash uses a variant of Merit's cuckoo algorithm. Use command line algorithm name *bitcash* to select it.
 
 ### Usage ###
 
