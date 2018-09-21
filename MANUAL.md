@@ -69,5 +69,13 @@ By default, each few seconds a total hashrate message is printed to the output w
 
 Adding the argument `--hashrate-per-gpu` to the command line will also print the hashrate per GPU device.
 
+## Connection status (ok/ko)
+
+On every output message printed by the miner, the second column contains the word `ok` (green color) or `ko` (red color).
+
+`ok` means that the connection with the pool is active.
+
+`ko` means that the connection with the pool has been lost. When this happens the miner stops the mining process on all the GPUs until reconnection with the pool is resolved. If a failover pool/s is set the miner will try to connect with the next pool in the list.
+
 
 
