@@ -6,6 +6,8 @@ This is a Windows and Linux miner for nVidia CUDA GPUs.
 
 Windows requires CUDA 9.1 (or higher). Linux CUDA 9.1 and CUDA 9.2 packages available.
 
+User manual available here: https://github.com/zjazz/zjazz_cuda_miner/blob/master/MANUAL.md
+
 ### Support/Contact ###
 
 Discord channel: https://discord.gg/FRUVSJT
