@@ -47,6 +47,8 @@ The way to set it is as easy as adding multiple times the URL, username (and pas
 
 Note that the user argument (-u) must always follow the URL argument (-u).
 
+Number of pools are not limited, you can set as pools as you need. Switching from one pool to the next one will always be done in a sequential order.
+
 ## Setting the number of threads per GPU
 
 By default each GPU uses 1 mining thread. Depending on the algorithm, hashrate can be improved by using more threads per GPU. For each extra thread used the amount of GPU memory (and swap memory file size on Windows) will be incremented.
@@ -58,4 +60,12 @@ To set the number of threads for all the GPUs to a specific value use the argume
 To set the different number of threads per GPU device instead of a global one, use the argument to select the device (-d or --device) and after it set the threads for that device with the parameter --device-gpu-threads followed by the number of threads to be used on that device. For example, to set the number of threads for the device #0 to 2, for the device #4 to 1 and for the device  #5 to 3:
 
 > zjazz -d 0 --device-gpu-threads 2 -d 4 --device-gpu-threads 1 -d 5 --device-gpu-threads 3
+
+## View hashrate of each GPU device
+
+By default, each few seconds a total hashrate message is printed to the output with the 1 minute and 10 minute hashrate averages.
+
+Adding the argument --hashrate-per-gpu to the command line will also print the hashrate per GPU device.
+
+
 
