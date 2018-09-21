@@ -1,7 +1,5 @@
 # zjazz CUDA miner - User Manual #
 
-[TOC]
-
 ## Listing  GPU devices ##
 
 To list the available GPU devices, use the -n (or --ndevs) argument:
